@@ -1,0 +1,111 @@
+/*ALL ELEMENTS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+
+/*NAV BAR*/
+header {
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    background-size: cover;
+    z-index: 1;
+}
+#header {
+    height: 69px;  
+}
+
+
+
+/*"OUR MISSION" SECTION*/
+
+/*background "our mission"*/
+#our-mission {
+    width: 1200px;
+    height: 700px;
+    background-image: url(ressources/images/mission-background.jpg);
+    background-position: center;
+    margin: auto;
+    display: flex;
+    
+}
+/*band "our mission"*/
+#band {
+    background-color: black;
+    margin: auto;
+    width: 1200px;   
+    
+}
+#band h2 {
+    margin-bottom: 15px;
+}
+
+
+
+/*"TEA OF THE MONTH" SECTION*/
+
+/*margin before the section*/
+#tea-of-the-month {
+    margin-top: 50px;
+}    
+
+/*margin between title of the section and the question*/
+#question {
+    margin-top: 15px;
+}
+
+/*margin before images*/
+.tea-images {
+    margin-top: 30px;
+}
+
+/*margin between the image and it's caption*/
+.tea-images h4,
+.image h4 {
+    margin-top: 10px;
+}
+
+/*images sizes*/
+.image img {
+    width: 300px;
+    height:200px;
+    
+}
+
+/*layout image on the first row of images*/
+.row1 {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+/*layout image on the second row of images*/
+.row2 {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: center;
+}
+
+/*margin between the two images on the second row*/
+.center1 {
+    margin-right: 35px;
+}
+
+
+
+
