@@ -118,13 +118,19 @@ header {
 #locations {
     display: flex;
     margin: auto;
+    justify-content: center;
+    align-items: center;
     width: 1200px;
     height: 500px;
     background-image: url(ressources/images/locations-background.jpg);
-    background-position: 80% 23%;
-    justify-content: center;
-    align-items: center;
+    background-position: 80% 10%;
     
+}
+
+/*position of "locations" title*/
+#loc-title {
+    position: relative;
+    top: 90px;
 }
 
 /*margin before the section*/
@@ -158,7 +164,6 @@ header {
 .first-line {
     margin-top: 35px;
 }
-
 
 
 
